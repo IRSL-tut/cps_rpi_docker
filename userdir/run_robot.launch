@@ -21,9 +21,8 @@
         <arg name="controller_settings" value="$(arg controller_settings)"/>
         <arg name="joint_trajectory_name"   value="$(arg joint_trajectory_name)"/>
     </include>
-    <group ns="$(arg namespace)" >
-        <include file="$(find sensor_pi)/launch/sensor_pi.launch" >
-            <arg name="config_path" value="$(arg sensor_config_path)" />
-        </include>
-    </group>
+    <include file="$(find sensor_pi)/launch/sensor_pi.launch" >
+        <arg name="config_path" value="$(arg sensor_config_path)" />
+        <arg name="namespace" value="$(arg namespace)" />
+    </include>
 </launch>
