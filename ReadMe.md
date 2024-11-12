@@ -1,3 +1,10 @@
+こちらは古いです．
+
+[こちら](https://github.com/IRSL-tut/cps_rpi)が新しいリポジトリになります．
+
+[こちら](https://github.com/IRSL-tut/cps_rpi_docker)が古いリポジトリになります．
+
+
 # cps学習用 ハードウェア
 
 以下に実世界で動かす場合の方法を記載する．
